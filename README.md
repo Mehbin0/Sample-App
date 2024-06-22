@@ -39,7 +39,7 @@ To run the app locally:
 
 1. Start the Expo development server:
 ```
-   npm expo start
+   npx expo start
 ```
 
 2. Use the Expo Go app on your mobile device to scan the QR code and run the app, or run it in an emulator.
