@@ -32,12 +32,6 @@ cd simple-form-app
 ```
 npm install
 ```
-## Configuration
-
-1. Update the Cloud Function URL in `App.js`:
-Replace `YOUR_CLOUD_FUNCTION_URL` with the actual URL of your deployed Google Cloud Function.
-
-2. (Optional) Modify the `eas.json` file to customize your build settings.
 
 ## Usage
 
@@ -45,24 +39,11 @@ To run the app locally:
 
 1. Start the Expo development server:
 ```
-   expo start
+   npm expo start
 ```
 
 2. Use the Expo Go app on your mobile device to scan the QR code and run the app, or run it in an emulator.
 
-## Building for Distribution
-
-To create a standalone binary:
-
-1. Run the build command:
-```
-eas build -p android --profile preview
-```
-(For iOS, use `-p ios` instead)
-
-2. Follow the prompts and wait for the build to complete.
-
-3. Download the APK (for Android) or IPA (for iOS) file from the provided URL.
 
 ## Contributing
 
