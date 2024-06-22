@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mehbin0.SimpleFormApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc35dfbb-02b6-4773-ae7d-aad37253a67e"
+      }
+    },
+    "owner": "mehbin0"
   }
 }
